@@ -97,4 +97,5 @@ select * from employees where department_id != 100 order by employee_id asc;
 
 select employee_id, first_name, last_name, salary from employees order by salary desc;
 
-select employee_id, first_name, last_name, hire_date from employees order by hire_date desc; 
+select employee_id, first_name, last_name, hire_date from employees order by hire_date desc;
+
