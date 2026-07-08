@@ -1,0 +1,13 @@
+<?xml version = '1.0' encoding = 'UTF-8'?>
+<OSDM_Design class="oracle.dbtools.crest.model.design.Design" name="spring_model" id="02CCB533-8926-E204-2583-DCE4EBECB284" version="3.5">
+<createdBy>USER</createdBy>
+<createdTime>2026-07-08 02:38:49 UTC</createdTime>
+<ownerDesignName>spring_model</ownerDesignName>
+<capitalNames>false</capitalNames>
+<designId>02CCB533-8926-E204-2583-DCE4EBECB284</designId>
+<usedDesignStorageDescriptors>
+<designDescr class="oracle.dbtools.crest.model.design.Design$DesignStorageDesc" id="EDB454BC-9435-4F99-F8D2-DB69A71EFB09">
+<designStoragePath>D:\</designStoragePath>
+</designDescr>
+</usedDesignStorageDescriptors>
+</OSDM_Design>

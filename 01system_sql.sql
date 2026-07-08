@@ -25,11 +25,11 @@ MAXSIZE 20M;
 -- 2.사용자설정(아이디: javauser, pwd: javauser, tablespace: firstData)
 ALTER SESSION SET "_ORACLE_SCRIPT"=true; 
 
-create user javauser IDENTIFIED by javauser
-default TABLESPACE firstData
+create user springuser IDENTIFIED by springuser
+default TABLESPACE users
 TEMPORARY TABLESPACE temp;
 
 -- 3.사용자 권한설정(javauser에게 접속권한, 테이블 curd기능부여)
-grant CONNECT, resource to javauser;
+grant CONNECT, resource to springuser;
 
 -- 4.접속요청을 진행하면된다.
