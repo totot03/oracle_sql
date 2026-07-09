@@ -93,3 +93,4 @@ select * from user_sequences;
 
 -- dep_seq 삭제하시오
 drop SEQUENCE dep_seq;
+

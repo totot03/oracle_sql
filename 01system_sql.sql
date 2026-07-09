@@ -33,3 +33,12 @@ TEMPORARY TABLESPACE temp;
 grant CONNECT, resource to springuser;
 
 -- 4.접속요청을 진행하면된다.
+
+-- 5.시퀀스설정
+create SEQUENCE emp_seq
+START WITH 1
+INCREMENT by 1
+MINVALUE 0
+MAXVALUE 1000
+NOCYCLE
+CACHE 2; 
